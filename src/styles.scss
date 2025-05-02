@@ -69,10 +69,6 @@ h1 {
 h2 {
   font-family: "Inter", sans-serif;
   font-size: 47px;
-  // transition: color 0.3s; // sorgt für sanften Übergang der Farbe
-  // &:hover {
-  //     color: #00BC8F;
-  //   }
 }
 
 h3 {
@@ -234,19 +230,19 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 8px; // Breite der Scrollleiste
+  width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; // Unsichtbarer Hintergrund
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3); // Transparenter, abgerundeter Balken
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.5); // Beim Hover dunkler
+  background: rgba(0, 0, 0, 0.5);
 }
